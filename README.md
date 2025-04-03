@@ -18,3 +18,19 @@ Verifica se o valor de saque é positivo e não excede o saldo disponível
 Garante que valores de depósito sejam positivos
 Trata entradas inválidas (não numéricas) no menu principal
 Fornece mensagens claras para cada operação
+
+
+>>PASSOS IMPORTANTES PARA BAIXAR
+
+echo "# DIO-Conta-Terminal" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/faustus-gomes/DIO-Conta-Terminal.git
+git push -u origin main
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/faustus-gomes/DIO-Conta-Terminal.git
+git branch -M main
+git push -u origin main
